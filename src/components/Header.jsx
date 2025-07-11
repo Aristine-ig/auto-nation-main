@@ -101,7 +101,7 @@ const Header = () => {
                 }
               }}
               // afterSignOutUrl="/"
-               redirectUrl="/"
+              redirectUrl="/"
 
             />
           </div>
