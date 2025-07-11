@@ -66,7 +66,9 @@ const Dashboard = () => {
           {/* Welcome Section */}
           <div className="mb-8">
             <h2 className="h2 mb-4">Welcome back, {user?.firstName || 'there'}!</h2>
-            <p className="text-n-4">Here's what's happening with your Instagram automation.</p>
+            <p className="text-n-4">Here&#39;s what&#39;s happening with your Instagram automation.</p>
+            {/* <p className="text-n-4">Here's what's happening with your Instagram automation.</p> */}
+
           </div>
 
           {/* Stats Grid */}
@@ -153,7 +155,9 @@ const Dashboard = () => {
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-color-2 rounded-full mt-2"></div>
                   <div>
-                    <p className="text-n-1 text-sm">New keyword "pricing" added</p>
+                    {/* <p className="text-n-1 text-sm">New keyword "pricing" added</p>
+                     */}
+                    <p className="text-n-1 text-sm">New keyword &quot;pricing&quot; added</p>
                     <p className="text-n-4 text-xs">1 hour ago</p>
                   </div>
                 </div>
