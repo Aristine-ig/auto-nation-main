@@ -100,7 +100,9 @@ const Header = () => {
                   userButtonPopoverFooter: "hidden"
                 }
               }}
-              afterSignOutUrl="/"
+              // afterSignOutUrl="/"
+               redirectUrl="/"
+
             />
           </div>
         </SignedIn>
