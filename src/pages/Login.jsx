@@ -100,7 +100,7 @@ const Login = () => {
             transition={{ delay: 0.6 }}
             className="mt-6 text-center px-2 sm:px-0"
           >
-            <p className="text-sm text-gray-300 break-words">
+            {/* <p className="text-sm text-gray-300 break-words">
               Don’t have an account?{' '}
               <a
                 href="/signup"
@@ -108,7 +108,7 @@ const Login = () => {
               >
                 Sign up here
               </a>
-            </p>
+            </p> */}
           </motion.div>
         </motion.div>
       </div>
